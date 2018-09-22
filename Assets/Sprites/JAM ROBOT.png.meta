@@ -1,0 +1,488 @@
+fileFormatVersion: 2
+guid: 4277edf4cfef2b54da367ff5e87ec882
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hand_Flamethrower
+    21300002: Hand_claw
+    21300004: Hand_shock
+    21300006: Hand_gun
+    21300008: Arm_Top
+    21300010: Head
+    21300012: JAM ROBOT_7
+    21300014: Hand_rocket
+    21300016: Hand_spike
+    21300018: Arm_Bottom
+    21300020: Body
+    21300022: JAM ROBOT_13
+    21300024: JAM ROBOT_14
+    21300026: Hand_mace
+    21300028: Hand
+    21300030: Leg_Upper
+    21300032: Leg_Lower
+    21300034: Foot
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hand_Flamethrower
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 309
+        height: 209
+      alignment: 9
+      pivot: {x: 0.37537363, y: 0.69509465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7123e78ad44ac8d439dd660370bb1343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand_claw
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 531
+        width: 128
+        height: 107
+      alignment: 9
+      pivot: {x: 0.11508155, y: 0.47882935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf7c420d34e24f42aae75cefdab8f1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand_shock
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 541
+        width: 202
+        height: 86
+      alignment: 9
+      pivot: {x: 0.0738607, y: 0.46048966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43353ff3e6cef294a871be440ff0f337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand_gun
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 527
+        width: 292
+        height: 131
+      alignment: 9
+      pivot: {x: 0.09824486, y: 0.45775902}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93c02c5ee4d3a84a91263749b7d9e47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arm_Top
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 517
+        width: 55
+        height: 120
+      alignment: 9
+      pivot: {x: 0.511044, y: 0.7851181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5e5c15245fbca4f878a63c43cd4ce2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 490
+        width: 325
+        height: 447
+      alignment: 9
+      pivot: {x: 0.50718635, y: 0.032675996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab4d7ad68d854f4cbbfe281468d6cd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JAM ROBOT_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 354
+        width: 115
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2f5ce4322e7864ca09ba55a612dfc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand_rocket
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 251
+        width: 234
+        height: 182
+      alignment: 9
+      pivot: {x: 0.7420157, y: 0.32574847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be0aadd8c4b2184c8d96160efcea866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand_spike
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 251
+        width: 99
+        height: 175
+      alignment: 9
+      pivot: {x: 0.1853798, y: 0.76535976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cfc2aa545ade144ac3cc259e9ef77f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arm_Bottom
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 394
+        width: 43
+        height: 88
+      alignment: 9
+      pivot: {x: 0.10344465, y: 0.90883046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3885a5680bbfd47990e129f180a827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 248
+        width: 129
+        height: 223
+      alignment: 9
+      pivot: {x: 0.5679165, y: 0.40396187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa2d00131ab3554099a643be006b6d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JAM ROBOT_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 317
+        width: 90
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a6a2708000a3b4380a8dc04e039c13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JAM ROBOT_14
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 275
+        width: 149
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12743ec2aee30443aa21504e0c7e13e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand_mace
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 281
+        width: 139
+        height: 102
+      alignment: 9
+      pivot: {x: 0.2840664, y: 0.54441684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b8e83a2a55b4c4ba3a972a7409d6d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 283
+        width: 60
+        height: 94
+      alignment: 9
+      pivot: {x: 0.14891154, y: 0.86319524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa9692a17454ac4a8ba2ee454410692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leg_Upper
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 207
+        width: 62
+        height: 135
+      alignment: 9
+      pivot: {x: 0.2052947, y: 0.8722003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071e613be2bfb3f4baf1ad9a1daf8cd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leg_Lower
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 87
+        width: 32
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5570946, y: 0.85528225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580d3c3a9e111694ca85ab4a970adb05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 7
+        width: 184
+        height: 60
+      alignment: 9
+      pivot: {x: 0.1731448, y: 0.78129303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8e1ec56c6706b4ca88953220ead0f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 108afcae288d1dc4ca8b8b7431f24c6a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
