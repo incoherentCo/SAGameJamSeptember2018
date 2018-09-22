@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: 6032d1622f725ef4c8ca12df28b39fa6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GirlBot_Body_Upper
+    21300002: GirlBot_Head
+    21300004: GirlBot_Arm_Upper
+    21300006: GirlBot_arm_Lower
+    21300008: GirlBot_BodyLower
+    21300010: GirlBot_5
+    21300012: GirlBot_6
+    21300014: GirlBot_hand
+    21300016: GirlBot_Leg_Upper
+    21300018: GirlBot_Leg_Lower
+    21300020: GirlBot_Foot
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GirlBot_Body_Upper
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 860
+        width: 160
+        height: 283
+      alignment: 9
+      pivot: {x: 0.54897386, y: 0.45154563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d2b0db7ecd0e64796c63ce57291e4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlBot_Head
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1138
+        width: 121
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5175065, y: 0.02618328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0244f75fdbdf9e41ab4d2e3df02401a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlBot_Arm_Upper
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 838
+        width: 59
+        height: 199
+      alignment: 9
+      pivot: {x: 0.35981053, y: 0.927508}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d962d40b3d62a64f8a2c84c6ec4b363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlBot_arm_Lower
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 692
+        width: 90
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5175042, y: 0.9427348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3467fcf44b1c7a947a48f457a953bc9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlBot_BodyLower
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 697
+        width: 131
+        height: 141
+      alignment: 9
+      pivot: {x: 0.45490107, y: 0.9273816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21d61f9502ef104c80e5ac1537fbecc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlBot_5
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 750
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d5002fddd86ef41b18ac1da440cee3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlBot_6
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 692
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90035dc17d76b4949b5403cd0377741c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlBot_hand
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 638
+        width: 16
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5246124, y: 0.8603399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded04b92589d1424182e08354e91fdcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlBot_Leg_Upper
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 411
+        width: 115
+        height: 281
+      alignment: 9
+      pivot: {x: 0.3098426, y: 0.9128422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a23753ad1fdcb4788d09c890d39199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlBot_Leg_Lower
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 108
+        width: 126
+        height: 288
+      alignment: 9
+      pivot: {x: 0.8633026, y: 0.95275253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2a090b1c3a2fd49a154adaab59b3d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlBot_Foot
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 16
+        width: 121
+        height: 81
+      alignment: 9
+      pivot: {x: 0.2076648, y: 0.80825704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771322274bc8f4f46a4a14149178dc71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 592f3e9c7361dfc4b8fca613f9e7aaa4
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
