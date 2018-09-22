@@ -330,6 +330,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Managers\Character_Manager.cs" />
+    <Compile Include="Assets\Scripts\Managers\Module_Manager.cs" />
     <Compile Include="Assets\Scripts\ModuleAction.cs" />
     <Compile Include="Assets\Scripts\Modules\BasicHand_Punch.cs" />
     <Compile Include="Assets\Scripts\SetObjectNameTosprite.cs" />
