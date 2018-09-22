@@ -332,10 +332,12 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Managers\Character_Manager.cs" />
     <Compile Include="Assets\Scripts\Managers\Module_Manager.cs" />
+    <Compile Include="Assets\Scripts\Managers\UI_Manager.cs" />
     <Compile Include="Assets\Scripts\Module.cs" />
     <Compile Include="Assets\Scripts\Module_Action.cs" />
     <Compile Include="Assets\Scripts\Modules\BasicHand_Punch.cs" />
     <Compile Include="Assets\Scripts\SetObjectNameTosprite.cs" />
+    <Compile Include="Assets\Scripts\UI\UI_ModuleAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />

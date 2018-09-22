@@ -10,7 +10,6 @@ public abstract class Module_Action : ScriptableObject {
     public Sprite Icon;
     public string AnimationNodeName;
     public AnimationCurve ButtonGrowthScale;
-    public int LayerHeight;
     public Button btn;
 
     public virtual void Action()
