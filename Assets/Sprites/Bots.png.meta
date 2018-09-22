@@ -22,19 +22,19 @@ TextureImporter:
     21300034: GirlBot_Drill_3
     21300036: Hair_end
     21300038: Bots_2
-    21300040: Bots_4
-    21300042: Bots_5
-    21300044: Bots_6
-    21300046: Bots_7
-    21300048: Bots_8
-    21300050: Bots_9
-    21300052: Bots_10
-    21300054: Bots_11
-    21300056: Bots_12
-    21300058: Bots_13
-    21300060: Bots_14
-    21300062: Bots_15
-    21300064: Bots_16
+    21300040: Bot_Head
+    21300042: Bot_Body_Upper
+    21300044: Bot_Arm_Upper
+    21300046: Bot_arm_Lower
+    21300048: Bot_BodyLower
+    21300050: Bot_Leg_Upper
+    21300052: Bot_Foot
+    21300054: Bot_Leg_Lower
+    21300056: Bot_hand
+    21300058: Bot_Drill_2
+    21300060: Bot_3
+    21300062: Bot_1
+    21300064: Bot_Saw
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -260,8 +260,8 @@ TextureImporter:
       name: GirlBot_Leg_Lower
       rect:
         serializedVersion: 2
-        x: 718
-        y: 105
+        x: 716
+        y: 103
         width: 126
         height: 288
       alignment: 9
@@ -477,7 +477,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_4
+      name: Bot_Head
       rect:
         serializedVersion: 2
         x: 1150
@@ -497,15 +497,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_5
+      name: Bot_Body_Upper
       rect:
         serializedVersion: 2
-        x: 1138
+        x: 1140
         y: 860
         width: 165
         height: 283
       alignment: 9
-      pivot: {x: 0.5206706, y: 0.95193624}
+      pivot: {x: 0.54897386, y: 0.45154563}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -517,7 +517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_6
+      name: Bot_Arm_Upper
       rect:
         serializedVersion: 2
         x: 1319
@@ -537,15 +537,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_7
+      name: Bot_arm_Lower
       rect:
         serializedVersion: 2
         x: 1295
         y: 693
         width: 90
         height: 137
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5175042, y: 0.9427348}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -557,10 +557,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_8
+      name: Bot_BodyLower
       rect:
         serializedVersion: 2
-        x: 1137
+        x: 1135
         y: 696
         width: 137
         height: 141
@@ -577,7 +577,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_9
+      name: Bot_Leg_Upper
       rect:
         serializedVersion: 2
         x: 1165
@@ -597,7 +597,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_10
+      name: Bot_Foot
       rect:
         serializedVersion: 2
         x: 1137
@@ -617,7 +617,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_11
+      name: Bot_Leg_Lower
       rect:
         serializedVersion: 2
         x: 1154
@@ -637,7 +637,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_12
+      name: Bot_hand
       rect:
         serializedVersion: 2
         x: 1309
@@ -657,7 +657,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_13
+      name: Bot_Drill_2
       rect:
         serializedVersion: 2
         x: 1798
@@ -665,7 +665,7 @@ TextureImporter:
         width: 77
         height: 165
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -677,7 +677,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_14
+      name: Bot_3
       rect:
         serializedVersion: 2
         x: 1800
@@ -685,7 +685,7 @@ TextureImporter:
         width: 75
         height: 383
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -697,7 +697,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_15
+      name: Bot_1
       rect:
         serializedVersion: 2
         x: 1773
@@ -705,7 +705,7 @@ TextureImporter:
         width: 151
         height: 156
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -717,7 +717,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_16
+      name: Bot_Saw
       rect:
         serializedVersion: 2
         x: 1789
@@ -725,7 +725,7 @@ TextureImporter:
         width: 105
         height: 185
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
