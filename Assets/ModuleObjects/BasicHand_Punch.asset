@@ -11,13 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22931028c7d80f84d8b0f6ed23062899, type: 3}
   m_Name: BasicHand_Punch
   m_EditorClassIdentifier: 
-  Name: 
-  Icon: {fileID: 0}
+  Name: Basic Punch
+  Icon: {fileID: 21300022, guid: 6032d1622f725ef4c8ca12df28b39fa6, type: 3}
+  AnimationNodeName: Punch
   ButtonGrowthScale:
-    serializedVersion: 2
     m_Curve:
-    - serializedVersion: 3
-      time: 0
+    - time: 0
       value: 0.009857178
       inSlope: 0
       outSlope: 0
@@ -25,8 +24,7 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.21655813
+    - time: 0.21655813
       value: 0.3183214
       inSlope: Infinity
       outSlope: Infinity
@@ -34,8 +32,7 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0
-    - serializedVersion: 3
-      time: 0.61323416
+    - time: 0.61323416
       value: 0.81714696
       inSlope: -1.288247
       outSlope: -1.288247
@@ -43,8 +40,7 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.34605402
-    - serializedVersion: 3
-      time: 1
+    - time: 1
       value: 1.0098572
       inSlope: 0
       outSlope: 0

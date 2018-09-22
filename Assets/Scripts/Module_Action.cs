@@ -10,21 +10,10 @@ public abstract class Module_Action : ScriptableObject {
     public Sprite Icon;
     public string AnimationNodeName;
     public AnimationCurve ButtonGrowthScale;
-    public Button btn;
 
     public virtual void Action()
     {
         Debug.Log(Name+" triggered");
-    }
-
-    public void MakeButton(ref Button btn)
-    {
-        btn.transform.GetComponentInChildren<Text>().text = name;
-        btn.GetComponent<Image>().sprite = Icon;
-        btn.onClick.AddListener(Action);
-        float scale = 0;
-        btn.StartCoroutine(ScaleByCurve((x) => scale = x));
-        btn.transform.localScale = new Vector3(scale,scale,scale);
     }
     IEnumerator ScaleByCurve(UnityAction<float> scale)
     {
@@ -33,9 +22,5 @@ public abstract class Module_Action : ScriptableObject {
             scale(ButtonGrowthScale.Evaluate(i));
             yield return null;
         }
-    }
-    public void init()
-    {
-        MakeButton(ref btn);
     }
 }
