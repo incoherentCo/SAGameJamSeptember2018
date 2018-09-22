@@ -5,9 +5,11 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 
 public class UI_ModuleAction : MonoBehaviour {
-    private Image _icon;
-    private Text _text;
-    private Button _button;
+
+    [SerializeField] private Image _icon;
+    [SerializeField] private Text _text;
+    [SerializeField] private Button _button;
+
 
     public void InitModule(Sprite icon,string name,UnityAction Action)
     {
@@ -15,5 +17,12 @@ public class UI_ModuleAction : MonoBehaviour {
         _text.text = name;
         _button.onClick.RemoveAllListeners();
         _button.onClick.AddListener(Action);
+    }
+
+    [ContextMenu("Set Dummy Data")]
+    public void SetDummyData()
+    {
+        _icon.color = Color.red;
+        _text.text = "Dummy Data";
     }
 }
