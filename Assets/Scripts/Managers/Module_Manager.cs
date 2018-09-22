@@ -4,16 +4,43 @@ using UnityEngine;
 
 public class Module_Manager : MonoBehaviour {
 
-    IDictionary<Character_Manager, ModuleAction[]> CharActionIndex;
+    #region  Singleton management
+    public static Module_Manager _instance;
+    private void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
+    private void OnDestroy()
+    {
+        _instance = null;
+    }
+    #endregion
+
+    public IDictionary<Character_Manager, Module_Action[]> CharActionIndex;
 
     private void Start()
     {
-        CharActionIndex = new Dictionary<Character_Manager, ModuleAction[]>();
+        Populate_CharActionIndex();
     }
 
-
-    public ModuleAction[] FindAllModulesInHierarchy(GameObject character)
+    public void Populate_CharActionIndex()
     {
-        return GetComponentsInChildren<ModuleAction>();
+        CharActionIndex = new Dictionary<Character_Manager, Module_Action[]>();
+        foreach (Character_Manager Character in FindObjectsOfType<Character_Manager>())
+        {
+            CharActionIndex.Add(Character, FindAllModulesInHierarchy(Character));
+        }
+    }
+
+    public Module_Action[] FindAllModulesInHierarchy(Character_Manager character)
+    {
+        return character.GetComponentsInChildren<Module_Action>();
     }
 }

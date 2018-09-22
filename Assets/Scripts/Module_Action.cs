@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-public abstract class ModuleAction : ScriptableObject {
+public abstract class Module_Action : ScriptableObject {
 
     public string Name;
     public Sprite Icon;
@@ -16,6 +16,7 @@ public abstract class ModuleAction : ScriptableObject {
     {
         Debug.Log(Name+" triggered");
     }
+
     public void MakeButton(ref Button btn)
     {
         btn.transform.GetComponentInChildren<Text>().text = name;
