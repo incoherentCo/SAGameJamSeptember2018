@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Module_Manager : MonoBehaviour {
 
-    IDictionary<Character, ModuleAction[]> CharActionIndex;
+    IDictionary<Character_Manager, ModuleAction[]> CharActionIndex;
 
     private void Start()
     {
-        CharActionIndex = new Dictionary<Character, ModuleAction[]>()
+        CharActionIndex = new Dictionary<Character_Manager, ModuleAction[]>();
     }
 
 
