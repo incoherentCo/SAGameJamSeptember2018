@@ -16,6 +16,8 @@ TextureImporter:
     21300022: GirlBot_Drill
     21300024: Bots_0
     21300026: Bots_1
+    21300028: Bots_2
+    21300030: Bots_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -333,6 +335,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 887625b8f12e85d4ab59ea75d4cac1ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bots_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 53
+        width: 105
+        height: 185
+      alignment: 9
+      pivot: {x: 0.46262017, y: 0.9101677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c92bdc95f3e135479974792048e787b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bots_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 869
+        width: 75
+        height: 383
+      alignment: 9
+      pivot: {x: 0.49119893, y: 0.7785555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb3c68d95e59eb458b0564b352eb27d
       vertices: []
       indices: 
       edges: []
