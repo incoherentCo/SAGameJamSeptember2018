@@ -13,6 +13,9 @@ TextureImporter:
     21300016: GirlBot_Leg_Upper
     21300018: GirlBot_Leg_Lower
     21300020: GirlBot_Foot
+    21300022: GirlBot_Drill
+    21300024: Bots_0
+    21300026: Bots_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -98,7 +101,7 @@ TextureImporter:
       name: GirlBot_Body_Upper
       rect:
         serializedVersion: 2
-        x: 954
+        x: 715
         y: 860
         width: 160
         height: 283
@@ -118,8 +121,8 @@ TextureImporter:
       name: GirlBot_Head
       rect:
         serializedVersion: 2
-        x: 989
-        y: 1138
+        x: 734
+        y: 1147
         width: 121
         height: 152
       alignment: 9
@@ -138,7 +141,7 @@ TextureImporter:
       name: GirlBot_Arm_Upper
       rect:
         serializedVersion: 2
-        x: 881
+        x: 643
         y: 838
         width: 59
         height: 199
@@ -158,8 +161,8 @@ TextureImporter:
       name: GirlBot_arm_Lower
       rect:
         serializedVersion: 2
-        x: 874
-        y: 692
+        x: 636
+        y: 693
         width: 90
         height: 137
       alignment: 9
@@ -178,8 +181,8 @@ TextureImporter:
       name: GirlBot_BodyLower
       rect:
         serializedVersion: 2
-        x: 989
-        y: 697
+        x: 748
+        y: 696
         width: 131
         height: 141
       alignment: 9
@@ -195,53 +198,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GirlBot_5
-      rect:
-        serializedVersion: 2
-        x: 1122
-        y: 750
-        width: 5
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49d5002fddd86ef41b18ac1da440cee3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GirlBot_6
-      rect:
-        serializedVersion: 2
-        x: 1067
-        y: 692
-        width: 18
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90035dc17d76b4949b5403cd0377741c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: GirlBot_hand
       rect:
         serializedVersion: 2
-        x: 911
-        y: 638
-        width: 16
-        height: 47
+        x: 651
+        y: 629
+        width: 61
+        height: 63
       alignment: 9
       pivot: {x: 0.5246124, y: 0.8603399}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,7 +221,7 @@ TextureImporter:
       name: GirlBot_Leg_Upper
       rect:
         serializedVersion: 2
-        x: 967
+        x: 728
         y: 411
         width: 115
         height: 281
@@ -278,8 +241,8 @@ TextureImporter:
       name: GirlBot_Leg_Lower
       rect:
         serializedVersion: 2
-        x: 954
-        y: 108
+        x: 718
+        y: 105
         width: 126
         height: 288
       alignment: 9
@@ -298,7 +261,7 @@ TextureImporter:
       name: GirlBot_Foot
       rect:
         serializedVersion: 2
-        x: 991
+        x: 754
         y: 16
         width: 121
         height: 81
@@ -310,6 +273,66 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 771322274bc8f4f46a4a14149178dc71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlBot_Drill
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 630
+        width: 77
+        height: 165
+      alignment: 9
+      pivot: {x: 0.52308935, y: 0.35003957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fff498c72eef240a4cbfa46740f735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bots_0
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 870
+        width: 9
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b39865d9e60a7499108316c33a1ab2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bots_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 356
+        width: 151
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887625b8f12e85d4ab59ea75d4cac1ae
       vertices: []
       indices: 
       edges: []

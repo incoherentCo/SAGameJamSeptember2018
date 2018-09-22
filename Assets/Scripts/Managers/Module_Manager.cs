@@ -41,6 +41,12 @@ public class Module_Manager : MonoBehaviour {
 
     public Module_Action[] FindAllModulesInHierarchy(Character_Manager character)
     {
-        return character.GetComponentsInChildren<Module_Action>();
+        Module [] modules = character.GetComponentsInChildren<Module>();
+        List<Module_Action> actions = new List<Module_Action>();
+        for (int i = 0; i < modules.Length; i++)
+        {
+            actions.Add(modules[i].action);
+        }
+        return actions.ToArray();
     }
 }
