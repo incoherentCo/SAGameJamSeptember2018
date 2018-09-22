@@ -13,11 +13,15 @@ TextureImporter:
     21300016: GirlBot_Leg_Upper
     21300018: GirlBot_Leg_Lower
     21300020: GirlBot_Foot
-    21300022: GirlBot_Drill
+    21300022: GirlBot_Drill_2
     21300024: Bots_0
     21300026: Bots_1
-    21300028: Bots_2
+    21300028: Bots_Saw
     21300030: Bots_3
+    21300032: GirlBot_Drill_1
+    21300034: GirlBot_Drill_3
+    21300036: Hair_end
+    21300038: Bots_2
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -280,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GirlBot_Drill
+      name: GirlBot_Drill_2
       rect:
         serializedVersion: 2
         x: 151
@@ -340,7 +344,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_2
+      name: Bots_Saw
       rect:
         serializedVersion: 2
         x: 129
@@ -375,6 +379,86 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fdb3c68d95e59eb458b0564b352eb27d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlBot_Drill_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 630
+        width: 77
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c299986d1cb187142b5224417a2439e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlBot_Drill_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 630
+        width: 77
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076e053de77972d4893f1cb50f6cb6d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair_end
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1221
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bb9f2884ca03a48a27501d5f617bcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bots_2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1178
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48b9094a436e7a4bb51d58c70b6eefa
       vertices: []
       indices: 
       edges: []
