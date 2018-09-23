@@ -7,9 +7,10 @@ using UnityEngine.UI;
 public abstract class Module_Action : ScriptableObject {
 
     public string Name;
-    public Sprite Icon;
+    public Sprite Sprite,Icon;
     public string AnimationNodeName;
     public AnimationCurve ButtonGrowthScale;
+    public int amount;
 
     public virtual void Action()
     {

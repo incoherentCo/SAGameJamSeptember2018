@@ -17,7 +17,7 @@ TextureImporter:
     21300024: Bots_0
     21300026: Bots_1
     21300028: Bots_Saw
-    21300030: Bots_3
+    21300030: Bots_sword
     21300032: GirlBot_Drill_1
     21300034: GirlBot_Drill_3
     21300036: Hair_end
@@ -377,11 +377,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bots_3
+      name: Bots_sword
       rect:
         serializedVersion: 2
         x: 150
-        y: 869
+        y: 867
         width: 75
         height: 383
       alignment: 9

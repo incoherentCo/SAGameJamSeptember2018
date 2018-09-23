@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Module_Manager : MonoBehaviour {
@@ -24,19 +25,32 @@ public class Module_Manager : MonoBehaviour {
     #endregion
 
     public IDictionary<Character_Manager, Module_Action[]> CharActionIndex;
+    public List<Character_Manager> Characters = new List<Character_Manager>();
 
     private void Start()
     {
         Populate_CharActionIndex();
+        if (Characters[0].Death == null)
+            Characters[0].Death = new CharacterEvent();
+        Characters[0].Death.AddListener(death);
+        if (Characters[1].Death == null)
+            Characters[1].Death = new CharacterEvent();
+        Characters[1].Death.AddListener(death);
     }
-
+    void death(Character_Manager character)
+    {
+        SceneManager.LoadScene(0);
+    }
+    [ContextMenu("Pupulate char actions")]
     public void Populate_CharActionIndex()
     {
         CharActionIndex = new Dictionary<Character_Manager, Module_Action[]>();
-        foreach (Character_Manager Character in FindObjectsOfType<Character_Manager>())
+        foreach (Character_Manager Character in Characters)
         {
             CharActionIndex.Add(Character, FindAllModulesInHierarchy(Character));
         }
+
+        UI_Manager._instance.addCharModules();
     }
 
     public Module_Action[] FindAllModulesInHierarchy(Character_Manager character)

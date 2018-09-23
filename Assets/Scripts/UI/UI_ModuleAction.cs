@@ -11,7 +11,7 @@ public class UI_ModuleAction : MonoBehaviour {
     [SerializeField] private Button _button;
 
 
-    public void InitModule(Sprite icon,string name,UnityAction Action)
+    public void SetModuleData(Sprite icon,string name,UnityAction Action)
     {
         _icon.sprite = icon;
         _text.text = name;
